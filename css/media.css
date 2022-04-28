@@ -28,8 +28,12 @@ select option {
 }
 
     .screen__content_photo {
-  margin-top: 20px;
+  margin-top: 30px;
     }
+
+.screen__content_photo img {
+    margin-left: 0;
+}
 
 .screen__content_info {
   margin-bottom: 30px;
@@ -79,10 +83,14 @@ padding-right: 20px;
 }
 
 .portfolio {
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .portfolio__item_todo {
-    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.portfolio__item_react {
+   margin-top: 30px;
 }
 }
