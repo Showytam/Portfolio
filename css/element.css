@@ -33,6 +33,17 @@
   }
 }
 
+select {
+  background-color: transparent;
+  font-size: 18px;
+  color: snow;
+}
+
+select option {
+  color: snow;
+  background-color:#2f4f4f;
+}
+
 .menu__link {
   color: snow;
   font-size: 18px;

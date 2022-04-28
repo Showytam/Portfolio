@@ -70,18 +70,7 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-select {
-  background-color: transparent;
-  margin-right: 40px;
-  font-size: 18px;
-  color: snow;
-}
 
-select option {
-  color: snow;
-  background-color:#2f4f4f;
-
-}
 
 .home {
   display: flex;
@@ -137,8 +126,9 @@ select option {
 }
 
 .screen__content_photo {
-  max-width: 300px;
-  max-height: 300px;
+  width: 275px;
+  height: 275px;
+  margin-bottom: 0;
 }
 
 .screen__content_info {
