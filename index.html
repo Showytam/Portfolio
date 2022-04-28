@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/element.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="header__menu menu">
+          <a href="" class="menu__link lng-home">Home</a>
+          <a href="" class="menu__link lng-about">About</a>
+          <a href="" class="menu__link lng-portfolio">Portfolio</a>
+          <a href="" class="menu__link lng-contact">Contact</a>
+        </nav>
+        <select class="change-lang">
+          <option value="ua">UA</option>
+          <option value="en" selected>EN</option>
+        </select>
+      </header>
+      <main class="page">
+        <div class="page__wrapper">
+          <div class="page__screen screen home">
+            <div class="screen__content">
+              <div class="title">
+                <h1 class="title-h1 lng-h1">
+                  VLADYSLAV KHOLOD
+                  <span>FRONT-END DEVELOPER</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div class="page__screen screen about">
+            <div class="screen__content">
+              <div class="screen__content_photo">
+              <img
+                class="my_photo"
+                src="./img/my_photo3.jpg"
+                alt="Photo"
+              />
+              </div>
+
+            </div>
+            <div class="screen__content_info">
+              <h2 class="title-h2 lng-h2">About me</h2>
+              <p class="lng-about_me">
+                Hi, I'm a frontend developer, looking to be part of a
+                professional a team in which I could use my skills in coding,
+                troubleshooting and timely assistance completion of projects.
+              </p>
+              <h2 class="title-h2 lng-skills">Skills</h2>
+              <p>Frontend developing: JavaScript(ES6), Vue.js, Vuex, React.</p>
+              <p>Layouts: HTML, CSS, preprocessor(SCSS, SASS).</p>
+              <p>Tools: Git, Github.</p>
+            </div>
+          </div>
+          <div class="page__screen screen ">
+            <div class="screen__content portfolio">
+              <div class="portfolio__item_todo">
+                <img src="./img/portfolio/portfolio1.jpg" alt="work 1" />
+                  <p >ToDoList on vanilla JavaScript</p>
+                   
+                <div class="portfolio__item_info">
+                  <button class="portfolio__item_btn">
+                    <a
+                     
+                      href="https://github.com/Showytam/To-do-list"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </button>
+                  <button class="portfolio__item_btn">
+                    <a
+                      
+                      href="https://showytam.github.io/To-do-list/"
+                      target="_blank"
+                      >View Project</a
+                    >
+                  </button>
+                </div>
+              </div>
+
+              <div class="portfolio__item_react">
+                <img src="./img/portfolio/portfolio2.jpg" alt="work 1" />
+                <p>App on React JS with API</p>
+                <div class="portfolio__item_info">
+                  <button class="portfolio__item_btn">
+                    <a
+                     
+                      href="https://github.com/Showytam/React-Rick_and_Morty"
+                      target="_blank"
+                      >View Code</a
+                    >
+                  </button>
+                  <button class="portfolio__item_btn">
+                    <a
+                    
+                      href="https://showytam.github.io/React-Rick_and_Morty/"
+                      target="_blank"
+                      >View Project</a
+                    >
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="page__screen screen contact">
+            <div class="screen__contact">
+              <h2 class="lng-contact_footer">Contacts</h2>
+              <div class="contact__item">
+                <p class="contact__item_info">
+                  <span class="lng-phone">PHONE </span>
+                  <span>+38-095-193-1253</span>
+                </p>
+                <p class="contact__item_info">
+                  <span class="lng-email">EMAIL - </span>
+                  <span>1the1notorious@gmail.com</span>
+                </p>
+                <p class="contact__item_info">
+                  <span class="lng-local">LOCAL - </span>
+                  <span class="lng-sumy">Sumy</span>
+                </p>
+                <p class="contact__item_info"></p>
+                <div class="social">
+                  <a
+                    href="https://www.linkedin.com/in/vladyslav-kholod-0627a6227/"
+                    target="_blank"
+                    ><img src="./img/icon/linkedin.png" alt="linkedin"
+                  /></a>
+
+                  <a href="https://t.me/VladyslavKholod" target="_blank"
+                    ><img src="./img/icon/telegram.png" alt="linkedin"
+                  /></a>
+
+                  <a href="https://github.com/Showytam" target="_blank"
+                    ><img src="./img/icon/Github.png" alt="linkedin"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="page__pagination"></div>
+        <div class="page__scroll"></div>
+      </main>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/lang.js"></script>
+    <script src="./js/app.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
