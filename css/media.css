@@ -48,3 +48,18 @@ padding-left: 0;
 }
 
 }
+
+@media (max-width: 600px) {
+select {
+  margin-right: 10px;
+}
+.screen__content_info {
+  margin-bottom: 60px;
+padding-left: 0;
+}
+
+.page__pagination {
+  right: 10px;
+}
+
+}
