@@ -57,7 +57,6 @@ body {
   transform: translate(0px, 0px);
 }
 
-
 .header {
   position: absolute;
   display: flex;
@@ -121,8 +120,6 @@ select option {
   flex-direction: column;
 }
 
-
-
 .screen {
   flex: 1 0 100%;
   position: relative;
@@ -143,7 +140,6 @@ select option {
   max-width: 300px;
   max-height: 300px;
 }
-
 
 .screen__content_info {
     padding-left: 3%;
@@ -172,16 +168,10 @@ max-width: 350px;
 max-height: 220px;
 }
 
-
-
-
-
-
 .portfolio__item_info {
   position: absolute;
   top:17%;
 }
-
 
 .portfolio__item_react {
   position: relative;
@@ -190,10 +180,6 @@ justify-content: center;
 max-width: 350px;
 max-height: 220px;
 }
-
-
-
-
 
 .lng-skills {
   margin-top: 10px;
@@ -219,54 +205,3 @@ max-height: 220px;
 }
 
 
-
-@media (max-width: 800px) {
-    .menu__link {
-    font-size: 15px;
-    margin: 0px 10px 0px 0px;
-  }
-  .title-h1 {
-    font-size: 2.5em;
-  }
-
-.title-h1 span {
-font-size: 0.45em;
-}
-
-select {
-    font-size: 15px;
-  margin-right: 20px;
-
-}
-
-.about {
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.screen__content_photo {
-  margin-top: 15px;
-  max-width: 240px;
-  max-height: 240px;
-}
-
-.screen__content_info {
-  margin-bottom: 30px;
-padding-left: 0;
-}
-
-.portfolio {
-  align-items: center;
-  margin-left: 0px;
-}
-
-.page__pagination {
-  right: 30px;
-}
-
-.page__bullet {
-  width: 9px;
-  height: 9px;
-}
-
-}
