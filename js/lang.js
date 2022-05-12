@@ -13,7 +13,7 @@ const langArr = {
   },
   about: {
     en: 'About',
-    ua: 'Про мене',
+    ua: 'Профіль',
   },
   portfolio: {
     en: 'Portfolio',
