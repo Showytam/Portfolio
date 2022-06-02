@@ -21,6 +21,7 @@
   color: snow;
 }
 
+
 @keyframes typing {
   from {
     width: 0;
@@ -31,6 +32,19 @@
   50% {
     border-color: transparent;
   }
+}
+
+h2 {
+  margin: 5px 0px 10px 0px;
+}
+
+h2 a {
+  margin-top: 5px;
+  display: inline-block;
+  color: snow;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+  border-bottom: 2px solid #AFEEEE;
 }
 
 select {
@@ -98,6 +112,7 @@ select option {
 
 .screen__content_info h2 {
   font-size: 2em;
+  margin-top: 5px;
   margin-bottom: 10px;
 }
 

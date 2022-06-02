@@ -4,14 +4,17 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;500&family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/element.css" />
     <link rel="stylesheet" href="./css/normalize.css" />
-    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/carousel.css" />
     <link rel="stylesheet" href="./css/style.css" />
-<link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./css/media.css" />
 
     <title>Portfolio</title>
   </head>
@@ -44,13 +47,8 @@
           <div class="page__screen screen about">
             <div class="screen__content">
               <div class="screen__content_photo">
-              <img
-                class="my_photo"
-                src="./img/my_photo3.jpg"
-                alt="Photo"
-              />
+                <img class="my_photo" src="./img/my_photo3.jpg" alt="Photo" />
               </div>
-
             </div>
             <div class="screen__content_info">
               <h2 class="title-h2 lng-h2">About me</h2>
@@ -63,126 +61,159 @@
               <p>Frontend developing: JavaScript(ES6), Vue.js, Vuex, React.</p>
               <p>Layouts: HTML, CSS, preprocessor(SCSS, SASS).</p>
               <p>Tools: Git, Github.</p>
+              <h2>
+                Certificates:
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:6938138772454727680/"
+                  >JavaScript Starter,
+                </a>
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:6938138772454727680/"
+                  >JavaScript Basic, </a
+                >
+                <a
+                  href="https://www.linkedin.com/feed/update/urn:li:activity:6938138772454727680/"
+                  >JavaScript Advanced</a
+                >
+              </h2>
             </div>
           </div>
-          <div class="page__screen screen ">
+          <div class="page__screen screen">
             <div class="screen__content portfolio">
+              <section aria-label="Portfolio">
+                <div class="carousel" data-carousel>
+                  <button
+                    class="carousel-button prev"
+                    data-carousel-button="prev"
+                  >
+                    &#8656;
+                  </button>
+                  <button
+                    class="carousel-button next"
+                    data-carousel-button="next"
+                  >
+                    &#8658;
+                  </button>
+                  <ul data-slides>
+                    <li class="slide" data-active>
+                      <button class="carousel-button-view code">
+                        <a
+                          href="https://github.com/Showytam/To-do-list"
+                          target="_blank"
+                          >Code</a
+                        >
+                      </button>
 
-    <section aria-label="Portfolio">
-      <div class="carousel" data-carousel>
-        <button class="carousel-button prev" data-carousel-button="prev">
-          &#8656;
-        </button>
-        <button class="carousel-button next" data-carousel-button="next">
-          &#8658;
-        </button>
-        <ul data-slides>
+                      <button class="carousel-button-view project">
+                        <a
+                          href="https://showytam.github.io/To-do-list/"
+                          target="_blank"
+                          >Project</a
+                        >
+                      </button>
 
-          <li class="slide" data-active>
+                      <img
+                        src="/img/portfolio/portfolio1.jpg"
+                        alt="To do list"
+                      />
+                      <p>To do list on vanilla js</p>
+                    </li>
 
-            <button
-              class="carousel-button-view code"
-            >
-              <a href="https://github.com/Showytam/To-do-list" target="_blank"
-                >Code</a
-              >
-            </button>
+                    <li class="slide">
+                      <button class="carousel-button-view code">
+                        <a
+                          href="https://github.com/Showytam/To-do-list"
+                          target="_blank"
+                          >Code</a
+                        >
+                      </button>
 
-            <button
-              class="carousel-button-view project"
-            >
-              <a href="https://showytam.github.io/To-do-list/" target="_blank"
-                >Project</a
-              >
-            </button>
+                      <button class="carousel-button-view project">
+                        <a
+                          href="https://showytam.github.io/To-do-list/"
+                          target="_blank"
+                          >Project</a
+                        >
+                      </button>
+                      <img
+                        src="/img/portfolio/portfolio5.jpg"
+                        alt="Training diary"
+                      />
+                      <p>
+                        App Training diary built with Vue.js, Vuex, VueRouter
+                      </p>
+                    </li>
 
-            <img src="/img/portfolio/portfolio1.jpg" alt="To do list" />
-            <p>To do list on vanilla js</p>
-          </li>
+                    <li class="slide">
+                      <button class="carousel-button-view code">
+                        <a
+                          href="https://github.com/Showytam/React-Rick_and_Morty"
+                          target="_blank"
+                          >Code</a
+                        >
+                      </button>
 
-          <li class="slide">
-            <button
-              class="carousel-button-view code"
-            >
-              <a href="https://github.com/Showytam/To-do-list" target="_blank"
-                >Code</a
-              >
-            </button>
+                      <button class="carousel-button-view project">
+                        <a
+                          href="https://showytam.github.io/React-Rick_and_Morty/"
+                          target="_blank"
+                          >Project</a
+                        >
+                      </button>
+                      <img
+                        src="./img/portfolio/portfolio2.jpg"
+                        alt="Rick and Morty"
+                      />
+                      <p>
+                        App React Rick and Morty built with React, Redux, React
+                        Router, API
+                      </p>
+                    </li>
 
-            <button
-              class="carousel-button-view project"
-            >
-              <a href="https://showytam.github.io/To-do-list/" target="_blank"
-                >Project</a
-              >
-            </button>
-            <img src="/img/portfolio/portfolio5.jpg" alt="Training diary" />
-            <p>App Training diary built with Vue.js, Vuex, VueRouter</p>
-          </li>
+                    <li class="slide">
+                      <button class="carousel-button-view code">
+                        <a
+                          href="https://github.com/Showytam/weather-vue"
+                          target="_blank"
+                          >Code</a
+                        >
+                      </button>
 
-          <li class="slide">
-            <button
-              class="carousel-button-view code"
-            >
-              <a href="https://github.com/Showytam/React-Rick_and_Morty" target="_blank"
-                >Code</a
-              >
-            </button>
+                      <button class="carousel-button-view project">
+                        <a
+                          href="https://showytam.github.io/weather-vue/"
+                          target="_blank"
+                          >Project</a
+                        >
+                      </button>
+                      <img src="./img/portfolio/portfolio4.jpg" alt="Weather" />
+                      <p>App Weather built with Vue.js, Api</p>
+                    </li>
 
-            <button
-              class="carousel-button-view project"
-            >
-              <a href="https://showytam.github.io/React-Rick_and_Morty/" target="_blank"
-                >Project</a
-              >
-            </button>
-            <img src="./img/portfolio/portfolio2.jpg" alt="Rick and Morty" />
-            <p>App React Rick and Morty built with React, Redux, React Router, API</p>
-          </li>
-
-          <li class="slide">
-            <button
-              class="carousel-button-view code"
-            >
-              <a href="https://github.com/Showytam/weather-vue" target="_blank"
-                >Code</a
-              >
-            </button>
-
-            <button
-              class="carousel-button-view project"
-            >
-              <a href="https://showytam.github.io/weather-vue/" target="_blank"
-                >Project</a
-              >
-            </button>
-            <img src="./img/portfolio/portfolio4.jpg" alt="Weather" />
-            <p>App Weather built with Vue.js, Api</p>
-          </li>
-
-          <li class="slide">
-            <button
-              class="carousel-button-view code"
-            >
-              <a href="https://github.com/Showytam/calculator-vue" target="_blank"
-                >Code</a
-              >
-            </button>
-            <button
-              class="carousel-button-view project"
-            >
-              <a href="https://showytam.github.io/calculator-vue/" target="_blank"
-                >Project</a
-              >
-            </button>
-            <img src="./img/portfolio/portfolio3.jpg" alt="Calculator" />
-            <p>A simple app Calculator built with Vue.js</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-
+                    <li class="slide">
+                      <button class="carousel-button-view code">
+                        <a
+                          href="https://github.com/Showytam/calculator-vue"
+                          target="_blank"
+                          >Code</a
+                        >
+                      </button>
+                      <button class="carousel-button-view project">
+                        <a
+                          href="https://showytam.github.io/calculator-vue/"
+                          target="_blank"
+                          >Project</a
+                        >
+                      </button>
+                      <img
+                        src="./img/portfolio/portfolio3.jpg"
+                        alt="Calculator"
+                      />
+                      <p>A simple app Calculator built with Vue.js</p>
+                    </li>
+                  </ul>
+                </div>
+              </section>
             </div>
           </div>
           <div class="page__screen screen contact">
