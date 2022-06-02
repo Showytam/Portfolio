@@ -40,14 +40,6 @@ select option {
 padding-left: 0;
 }
 
-.portfolio {
-  align-items: center;
-  padding-top: 40px;
-  margin: 0 auto;
-}
-
-
-
 .page__pagination {
   right: 20px;
 }
@@ -85,53 +77,8 @@ padding-right: 20px;
   right: 10px;
 }
 
-.portfolio {
-    margin: 0 auto;
-}
-
-.portfolio__item_btn {
-  padding: 0 15px;
-  margin-top: 50px;
-  margin-left: 10px;
-  outline: none;
-  border: 2px solid #afeeee;
-  border-radius: 50px;
-  height: 35px;
-  line-height: 30px;
-  font-size: 12px;
-  font-weight: 600;
-}
-
-.portfolio__item_btn a {
-font-size: 12px;
-}
-
-.portfolio__item {
-position: relative;
-display: flex;
-justify-content: center;
-max-width: 300px;
-max-height: 200px;
-margin: 5px;
-}
-
-.portfolio__item_todo {
-    margin-top: 50px;
-}
-
-.portfolio__item_react {
-   margin-top: 30px;
-}
 }
 
 @media (max-width: 400px) {
-.portfolio__item {
-position: relative;
-display: flex;
-justify-content: center;
-max-width: 300px;
-max-height: 150px;
-margin: 3px;
-}
 
 }
