@@ -142,31 +142,6 @@ body {
 }
 
 
-
-.portfolio {
-  max-width: 950px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content:space-around;
-  padding-top: 50px;
-  margin: 0 auto;
-}
-
-.portfolio__item {
-position: relative;
-display: flex;
-justify-content: center;
-max-width: 350px;
-max-height: 250px;
-margin: 20px;
-}
-
-.portfolio__item_info {
-  position: absolute;
-  top:17%;
-}
-
-
 .lng-skills {
   margin-top: 10px;
 }
