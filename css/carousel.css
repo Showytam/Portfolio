@@ -9,7 +9,7 @@ body {
 section {
   width: 100vw;
   height: 100vh;
-  margin-top: 30px;
+  margin-top: 50px;
   display: flex;
   justify-content: center;
 }
@@ -46,6 +46,7 @@ section {
 
 .slide p {
   font-size: 26px;
+  margin-top: 15px;
 }
 
 .slide[data-active] {
@@ -97,8 +98,8 @@ section {
   color: rgba(255, 255, 255);
   cursor: pointer;
   border-radius: .35rem;
-  padding: 0 .5rem;
-  background-color: rgba(0, 0, 0, .1);
+  padding: .3rem .5rem;
+  background-color: rgba(0, 0, 0, .3);
 }
 
 .carousel-button-view:hover,
@@ -109,11 +110,11 @@ section {
 
 
 .carousel-button-view.code {
-left: 9rem;
+left: 25%;
 }
 
 .carousel-button-view.project {
-right: 9rem;
+right: 25%;
 }
 
 .carousel-button-view a {
