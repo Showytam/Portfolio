@@ -90,6 +90,10 @@ padding-right: 20px;
   height: 240px;
 }
 
+.screen__content_photo {
+    margin-top: 50px;
+}
+
 .page__pagination {
   right: 10px;
 }
@@ -147,4 +151,19 @@ h2 a{
   height: 200px;
   position: relative;
 }
+
+.screen__content_info h2 {
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.screen__content_photo {
+    margin-top: 50px;
+}
+.screen__content_photo {
+    width: 180px;
+    height: 180px;
+}
+
 }
