@@ -1,6 +1,6 @@
 .title-h1 {
   width: 21ch;
-  animation: typing 3.5s, cubic-bezier(0.1, -0.6, 0.2, 0);
+  animation: typing 2.5s, cubic-bezier(0.1, -0.6, 0.2, 0);
   white-space: nowrap;
   overflow: hidden;
   font-size: 3em;
