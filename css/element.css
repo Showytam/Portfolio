@@ -21,7 +21,6 @@
   color: snow;
 }
 
-
 @keyframes typing {
   from {
     width: 0;
@@ -45,12 +44,14 @@ h2 a {
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   font-size: 20px;
-  border-bottom: 2px solid #AFEEEE;
-  text-shadow: 0 0 1px paleturquoise,0 0 1px paleturquoise,0 0 1px paleturquoise,0 0 1px paleturquoise;
+  border-bottom: 2px solid #afeeee;
+  text-shadow: 0 0 1px paleturquoise, 0 0 1px paleturquoise,
+    0 0 1px paleturquoise, 0 0 1px paleturquoise;
 }
 
-h2 a:hover{
-  text-shadow: 0 0 1px paleturquoise,0 0 2px paleturquoise,0 0 3px paleturquoise,0 0 3px paleturquoise;
+h2 a:hover {
+  text-shadow: 0 0 1px paleturquoise, 0 0 2px paleturquoise,
+    0 0 3px paleturquoise, 0 0 3px paleturquoise;
 }
 
 select {
@@ -61,7 +62,7 @@ select {
 
 select option {
   color: snow;
-  background-color:#2f4f4f;
+  background-color: #2f4f4f;
 }
 
 .menu__link {
@@ -72,7 +73,7 @@ select option {
 }
 
 .menu__link._active {
-  color: #AFEEEE;
+  color: #afeeee;
 }
 
 .page__bullet {
@@ -111,7 +112,7 @@ select option {
   object-fit: cover;
   height: 100%;
   width: 100%;
-    border-radius: 50%;
+  border-radius: 50%;
   border: 2px solid #afeeee;
   margin-left: 20px;
 }
@@ -127,7 +128,6 @@ select option {
   line-height: 130%;
 }
 
-
 .screen__contact h2 {
   text-align: center;
   font-size: 2em;
@@ -139,7 +139,6 @@ select option {
   margin-top: 10px;
   line-height: 130%;
 }
-
 
 .social a {
   padding-left: 10px;

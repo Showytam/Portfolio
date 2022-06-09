@@ -114,10 +114,6 @@ body {
   position: relative;
 }
 
-/* .screen__content {
-  padding: 25px;
-} */
-
 .screen__body {
   width: 100%;
   height: 100%;
@@ -129,10 +125,11 @@ body {
   width: 275px;
   height: 275px;
   margin-bottom: 0;
+  margin-left: 50px;
 }
 
 .screen__content_info {
-    padding-left: 3%;
+    margin-left: 70px;
     max-width: 500px;
 }
 
