@@ -2,6 +2,10 @@
 .page__pagination {
   right: 30px;
 }
+
+.screen__content_info {
+    margin-left: 0;
+}
 }
 
 @media (max-width: 890px) {
